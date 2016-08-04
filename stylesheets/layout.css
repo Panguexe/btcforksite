@@ -221,6 +221,10 @@ span.line4 {
 	height: 650px;
 }
 
+.introtext {
+	padding: 0 15px 0 15px;
+}
+
 nav {
 	text-align: center;
 	position: fixed;
