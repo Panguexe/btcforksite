@@ -16,8 +16,7 @@
 	#Vision
 	#Roadmap
 	#FAQ
-	#About
-	#Contact
+	#Contribute
 	#Media Queries
 	#Font-Face
 */
@@ -81,6 +80,13 @@ h4 {
 }
 
 p.headline {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 25px;
+	color: #3d3d3d;
+}
+
+p.largebody {
 	font-size: 18px;
 	text-align: center;
 	margin-bottom: 25px;
@@ -532,7 +538,7 @@ p.serv {
 /* #About
 ================================================== */
 
-#about {
+#faq {
 	background: url(../images/bg.png) repeat;
 	position: relative;
 	z-index: 300;
@@ -647,16 +653,16 @@ p.line2nd {
 
 
 
-/* #Contact
+/* #Contribute
 ================================================== */
 
-#contact {
+#contribute {
 	width: 100%;
 	height: 500px;
 	position: relative;
 }
 
-#contact .bg2 {
+#contribute .bg2 {
 	background: url(../images/intro-bg4.jpg) 0 0 repeat fixed;
 	/*background: url(../images/intro-bg2.jpg) 0 0 repeat fixed;*/ /*Background 2*/
 	/*background: url(../images/intro-bg3.jpg) 0 0 repeat fixed;*/ /*Background 3*/
@@ -665,7 +671,7 @@ p.line2nd {
 	position: absolute;
 	z-index: 200;
 	width: 100%;
-	height: 600px;
+	height: 650px;
 }
 
 .dotted-bar3 {
@@ -694,23 +700,23 @@ p.line2nd {
 }
 
 
-#contact h2 {
+#contribute h2 {
 	color: #fff;
 	margin-top: 170px;
 	position: relative;
 	z-index: 300;
 }
 
-#contact span.line, #contact span.line2 {
+#contribute span.line, #contact span.line2 {
 	background: #fff;
 	width: 320px;
 }
 
-#contact span.line2 {
+#contribute span.line2 {
 	margin-left: 15px;
 }
 
-#contact p.headline {
+#contribute p.headline {
 	color: #fff;
 	position: relative;
 	z-index: 300;
@@ -871,8 +877,8 @@ p.line2nd {
 		}
 		
 		
-		#contact .bg2 {
-			height: 700px;
+		#contribute .bg2 {
+			height: 800px;
 		}
 		
 		
