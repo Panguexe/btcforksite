@@ -105,7 +105,9 @@ p.largebody {
 	font-style: italic;
 }
 
-
+.center {
+	text-align: center;
+}
 
 /* #Generic Styles
 ================================================== */
